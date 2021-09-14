@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/*************BARVY**************/
+/*************STYL ODSTAVCŮ***********/
+/*************PÍSMO***********/
+body {
+  background-color: #fcfcfc;
+  background-repeat: no-repeat;
+  color: #4d4e80;
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /****background-image: linear-gradient(
+    
+      rgba(255, 255, 255, 0.9) 10%
+    ),url('images/car.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    width: 100%;
+    padding: 1rem;***/
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem auto 1rem auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(255, 255, 255, 0.9))), url("images/kocour.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9) 100%), url("images/kocour.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+/*****************MENU*************************/
+nav {
+  background: #8a97c7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu menu__item {
+  padding: 1rem;
+}
+
+.menuToggle {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-transform: uppercase;
+}
+
+.menu li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0.5rem;
+}
+
+.menu li.subitem a {
+  padding: 1rem;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+/*****************MAIN*************************/
+p {
+  text-align: center;
+}
+
+.cenik-tabulka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*****************KONTAKT*************************/
+.kontakt {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.kontakt__social {
+  color: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.kontakt__social svg {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.kontakt__social #fb-circle {
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.kontakt__social #fb:hover #fb-circle {
+  fill: transparent;
+  stroke-width: 2;
+  stroke-dasharray: 8;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.kontakt__social #fb-circle #fb-path {
+  fill: #303FC9;
+}
+
+.kontakt__social #fb-circle {
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.kontakt__social #fb:hover #fb-circle {
+  fill: transparent;
+  stroke-width: 2;
+  stroke-dasharray: 8;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.kontakt__social #fb-circle #fb-path {
+  fill: #303FC9;
+}
+
+.kontakt__social #insta:hover #insta-dot {
+  -webkit-animation: flash .2s ease;
+          animation: flash .2s ease;
+}
+
+@-webkit-keyframes flash {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  to {
+    opacity: 0;
+  }
+}
+
+#twitter {
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+}
+
+#twitter:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#linkedin {
+  background-color: #ffffff;
+  border-radius: 21px;
+}
+
+#linkedin:hover {
+  -webkit-animation: pulz 3s infinite;
+          animation: pulz 3s infinite;
+}
+
+@-webkit-keyframes pulz {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes pulz {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+/*# sourceMappingURL=style.css.map */
