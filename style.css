@@ -3,9 +3,9 @@
 /*************STYL ODSTAVCŮ***********/
 /*************PÍSMO***********/
 body {
-  background-color: #fcfcfc;
+  background-color: #f09f0abe;
   background-repeat: no-repeat;
-  color: #4d4e80;
+  color: #438505;
   font-size: 16px;
   font-family: sans-serif;
   -webkit-box-sizing: border-box;
@@ -30,11 +30,30 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 1.5rem auto 1rem auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(255, 255, 255, 0.9))), url("images/kocour.png");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9) 100%), url("images/kocour.png");
+}
+
+.kocour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(255, 255, 255, 0.4))), url("images/animal-1295654.svg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4) 100%), url("images/animal-1295654.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  background-position: right;
+  padding-top: 10rem;
+}
+
+.malovanykocour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h1 {
@@ -44,7 +63,7 @@ h1 {
 
 /*****************MENU*************************/
 nav {
-  background: #8a97c7;
+  background-color: #438505;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,6 +123,30 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.portfolio__item--ctvrty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pivovar {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.pivovarfoto
+.pivofoto
+.akcefoto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (minmax(200px, 1fr))[auto-fill];
+      grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 /*****************KONTAKT*************************/
@@ -166,6 +209,14 @@ p {
 .kontakt__social #insta:hover #insta-dot {
   -webkit-animation: flash .2s ease;
           animation: flash .2s ease;
+}
+
+.kontakt__social .ozdoba {
+  background-image: url("images/hops-309577_1280.png");
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  background-position: center;
+  width: 100%;
 }
 
 @-webkit-keyframes flash {
