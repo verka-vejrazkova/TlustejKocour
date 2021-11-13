@@ -7,11 +7,11 @@ body {
   background-repeat: no-repeat;
   color: #438505;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 1rem;
+  margin: 1rem;
   /****background-image: linear-gradient(
     
       rgba(255, 255, 255, 0.9) 10%
@@ -30,6 +30,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 1.5rem auto 1rem auto;
+  background-color: #dabd88be;
+  align-items: center;
 }
 
 .kocour {
@@ -39,12 +41,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(255, 255, 255, 0.4))), url("images/animal-1295654.svg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.4) 100%), url("images/animal-1295654.svg");
+  background-image: url("images/kocour.png");
   background-repeat: no-repeat;
-  width: 100%;
-  background-position: right;
-  padding-top: 10rem;
+  background-size: 50vw;
+  background-position: center;
+  padding: 5rem;
 }
 
 .malovanykocour {
@@ -59,6 +60,11 @@ header {
 h1 {
   text-align: center;
   font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
 }
 
 /*****************MENU*************************/
@@ -116,37 +122,34 @@ p {
   text-align: center;
 }
 
-.cenik-tabulka {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.portfolio__item--ctvrty {
+tr {
+  margin: 2rem;
+}
+
+.pivovarfoto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.pivovar {
-  padding: .5rem;
-  font-size: 1.2rem;
   text-align: center;
 }
 
-.pivovarfoto
-.pivofoto
+.pivovarfoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
 .akcefoto {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (minmax(200px, 1fr))[auto-fill];
-      grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 5rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 /*****************KONTAKT*************************/
@@ -272,6 +275,12 @@ p {
   to {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    padding: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

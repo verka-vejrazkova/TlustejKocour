@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <title>TlustejKocour</title>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Comfortaa&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kalam:wght@700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-
+    <h1>Pivovar Tlustej Kocour</h1>
     <picture class="kocour">
-        <h1>Pivovar Tlustej Kocour</h1>
+        
         
 
     </picture>
+   
 
     <header>
 
@@ -59,6 +62,7 @@
             </li>
             <li class="menu__item menu__item--ctvrty">
                 <a href="#fotogalerie">Fotogalerie</a>
+                
             </li>
             <li class="menu__item menu__item--paty">
                 <a href="#cenik">Ceník</a>
@@ -97,32 +101,24 @@
            
         </div>
 
-        <div id="fotogalerie" class="portfolio__item portfolio__item--ctvrty">
-            <h1>Fotogalerie</h1>
-            <div class=pivovar>
-                <h2>Pivovar</h2>
-                <div class="pivovarfoto">
-                <img src="images/beer-2019929_1280.jpg" alt="Pivo">
-                <img src="images/beer-garden-3595747_1280.jpg" alt="Pivo">
-                <img src="images/beer-2649143_1280.jpg" alt="Lahve">
+        <section class="fotogalerie row">
+            <h2>Pivovar</h2>
+            <div class="pivovarfoto">
+               
+                <img src="images/nadoby.jpg" alt="Pivo">
+                <img src="images/vyrobna.jpg" alt="Pivo">
                 </div>
             </div>
-            <div class=pivo>
-                <h2>Pivo</h2>
-                <div class="pivofoto">
-                <img src="images/beer-2019929_1280.jpg" alt="Pivo">
-                <img src="images/beer-garden-3595747_1280.jpg" alt="Pivo">
-                <img src="images/bottles-764289_1280.jpg" alt="Lahve">
+            <h2>Pivo</h2>
+            <div class="pivofoto">                
+                <img src="images/pivo_tmavé.jpg" alt="Pivo">
+                <img src="images/lahve.jpg" alt="Lahve s pivem">
+                <img src="images/pivo_svetle_small.jpg" alt="Lahve">
             </div>
-            </div>
-            <div class=akce>
+            <div class="akcefoto">
                 <h2>Akce</h2>
-                <div class="akcefoto">
-                <img src="images/beer-2019929_1280.jpg" alt="Pivo">
-                <img src="images/beer-garden-3595747_1280.jpg" alt="Pivo">
-                <img src="images/bottles-764289_1280.jpg" alt="Lahve">
             </div>
-            </div>
+        </section>
            
         </div>
 
@@ -130,67 +126,34 @@
             <div class="kontakt__item">
                 <h1>Ceník</h1>
             </div>
-            <table class="cenik-tabulka">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
                 <tbody>
-                    <tr>
-                        <td>pivo 1</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
-                        <td>150&nbsp;Kč</td>
-                    </tr>
-                    <tr>
-                        <td>pivo 2</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-                        <td>200&nbsp;Kč</td> 
-                    </tr>
-
-                    <tr>
-                        <td>pivo 3</td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        <td>150&nbsp;Kč</td> 
-                    </tr>
-                    
-                    <tr>
-                        <td>pivo 4</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-                        <td>180&nbsp;Kč</td>
-                    </tr>
-
-                    <tr>
-                        <td>pivo 5</td>
-                        <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-                        <td>450&nbsp;Kč</td>
-                    </tr>
-
-                    <tr>
-                        <td>pivo 6</td>
-                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                        <td>300&nbsp;Kč</td>
-                    </tr>
-
-                    <tr>
-                        <td>pivo 7</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-                        <td>380&nbsp;Kč</td>
-                    </tr>
-                
-                   <!-- <tr>
-                        <td>Ostatní služby</td>
-                        <p>Odchupení interiéru</p>
-                        <p>Impergnace kůže</p>
-                        <td>Odstranění pryskyřice</td>
-                        <td>Odstranění asfaltových skvrn</td>
-                        <td>Mytí gumových koberečků</td>
-                        <td>Ošetřní gum proti zamrzání</td>
-                        <td>Ošetení zámku proti zamrzání</td>
-
-                        <td>2290&nbsp;Kč/hod.</td>
-                    </tr>
-                    -->
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Pivo Kocour</td>
+                    <td>128Kč</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Pivo tmavý kocour</td>
+                    <td>125Kč</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Ležák Kocour</td>
+                    <td>137Kč</td>
+                  </tr>
                 </tbody>
-    
-    
-    
             </table>
+                
     
         </div>
 
