@@ -3,15 +3,11 @@
 /*************STYL ODSTAVCŮ***********/
 /*************PÍSMO***********/
 body {
-  background-color: #f09f0abe;
+  background-color: #fafafabe;
   background-repeat: no-repeat;
   color: #438505;
   font-size: 16px;
   font-family: 'Abril Fatface', cursive;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 1rem;
-  margin: 1rem;
   /****background-image: linear-gradient(
     
       rgba(255, 255, 255, 0.9) 10%
@@ -22,6 +18,11 @@ body {
     padding: 1rem;***/
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +31,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 1.5rem auto 1rem auto;
-  background-color: #dabd88be;
   align-items: center;
 }
 
@@ -41,25 +41,24 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("images/kocour.png");
+  background-image: url("images/Tlustejkocour.svg");
   background-repeat: no-repeat;
   background-size: 50vw;
   background-position: center;
-  padding: 5rem;
+  padding-bottom: 19rem;
+  margin-top: -10rem;
 }
 
-.malovanykocour {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.napis {
+  color: #08010f;
+  padding: 2.3rem;
+  margin-top: -7rem;
+  font-size: 130%;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
 h2 {
@@ -132,24 +131,21 @@ tr {
   margin: 2rem;
 }
 
-.pivovarfoto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
+.container {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5rem;
 }
 
-.pivovarfoto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
-.akcefoto {
-  padding: 5rem;
-  font-size: 1.2rem;
-  text-align: center;
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /*****************KONTAKT*************************/
@@ -278,9 +274,27 @@ tr {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
   h1 {
     padding: 2rem;
+  }
+  .nadpis {
+    margin-top: -3.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+    padding: 2rem;
+  }
+  .kocour {
+    padding-top: 10rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .nadpis {
+    margin-top: -2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
