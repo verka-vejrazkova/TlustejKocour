@@ -105,16 +105,19 @@
            
         </div>
 
-        <section class="section section--photos section--dark" id="photos">
-          <div class="container"><h2 class="title title--h2">Photos</h2></div>
-          <div class="gallery">
-            <div><img src="images/beer-2019929_1280.jpg" alt="" /></div>
-            <div><img src="images/beer-4939916_1920.png" alt="" /></div>
-            <div><img src="images/bottles-g9b7557a36_1280.jpg" alt="" /></div>
-            <div><img src="images/hop-2682304_1280.jpg" alt="" /></div>
-            <div><img src="images/nadoby.jpg" alt="" /></div>
-          </div>
-        </section>
+        <h1>Fotogalerie</h1>
+
+	<div class="galerie">
+
+		<img onclick="predchoziObrazek()" class="sipka" src="obrazky/sipka-vlevo.svg">
+
+		<div class="ramecek">
+			<img id="foto" src="obrazky/TK1.jpg" alt="Obrazek Piva">
+		</div>
+
+		<img onclick="dalsiObrazek()" class="sipka" src="obrazky/sipka-vpravo.svg">
+
+	</div>
 
         <div  id="cenik" class="cenik">
             <div class="kontakt__item">
@@ -199,6 +202,8 @@
         <div class="ozdoba">
             
         </div>
+
+        <script src="main.js"></script>
     
 </body>
 </html>
