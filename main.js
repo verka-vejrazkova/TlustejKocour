@@ -24,5 +24,4 @@ function dalsiObrazek() {
 
 function zobrazFotku(index) {
     foto.src = 'obrazky/' + obrazky[index];
-    pocitadlo.textContent = obrazky[index] + ' - ' + (index + 1) + ' / ' + obrazky.length;
 }
