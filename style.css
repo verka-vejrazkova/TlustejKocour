@@ -40,6 +40,10 @@ header {
   background-color: black;
 }
 
+.logo h1 {
+  color: whitesmoke;
+}
+
 .obrazek {
   position: flex;
   -webkit-box-align: center;
@@ -69,11 +73,14 @@ header {
 h1 {
   text-align: center;
   font-family: 'Amatic SC', cursive;
+  color: black;
 }
 
 h2 {
-  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
   text-align: center;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 100%;
 }
 
 /*****************MENU*************************/
@@ -114,6 +121,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem 0.5rem;
+  font-family: 'Amatic SC', cursive;
+  font-size: 130%;
 }
 
 .menu li.subitem a {
@@ -129,13 +138,17 @@ a {
 /*****************MAIN*************************/
 p {
   text-align: center;
+  color: #1d1a1a;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 38vw;
+  padding-left: 28vw;
+  font-family: 'Public Sans', sans-serif;
+  color: black;
 }
 
 tr {
