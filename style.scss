@@ -147,7 +147,7 @@ p {
 
 .table {
   align-items: center;
-  padding-left: 28vw;
+  padding-left: 8vw;
   font-family: 'Public Sans', sans-serif;
   color: black;
 }
@@ -201,9 +201,6 @@ tr {
   
  
 }
-
-
-
 
 .kontakt__social {
   color: #ffffff;
@@ -264,6 +261,10 @@ tr {
     background-size: 20rem;  
     background-position: center;
     width: 100%;
+}
+
+.hra {
+  display: flex;
 }
 
 

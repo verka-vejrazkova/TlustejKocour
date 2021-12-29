@@ -146,7 +146,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 28vw;
+  padding-left: 8vw;
   font-family: 'Public Sans', sans-serif;
   color: black;
 }
@@ -271,6 +271,12 @@ tr {
   background-size: 20rem;
   background-position: center;
   width: 100%;
+}
+
+.kontakt__social .hra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @-webkit-keyframes flash {
