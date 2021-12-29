@@ -28,18 +28,3 @@ function zobrazFotku(index) {
 }
 
 zobrazKocoura(index);
-
-function zobrazKocoura() {
-    
-}
-
-function zeptejSeKocoura() {
-	let kocourHra = document.querySelector('#kocourHra');
-	let zprava = document.querySelector('#zprava');
-
-	let hod = Math.floor(Math.random() * 6 + 1);
-
-	kocourHra.src = 'obrazky/Hra/' + hod + '.svg';
-
-}
-zobrazKocoura() 

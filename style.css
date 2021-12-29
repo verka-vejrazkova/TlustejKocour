@@ -93,6 +93,7 @@ nav {
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding: 1rem;
+  font-size: 130%;
 }
 
 a {
@@ -149,6 +150,27 @@ p {
   padding-left: 8vw;
   font-family: 'Public Sans', sans-serif;
   color: black;
+}
+
+.portfolio__item--treti li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Public Sans', sans-serif;
+  color: black;
+}
+
+.cena {
+  font-weight: bold;
+  color: #949494;
+  padding-bottom: 2rem;
+}
+
+.popis {
+  font-style: italic;
 }
 
 tr {
